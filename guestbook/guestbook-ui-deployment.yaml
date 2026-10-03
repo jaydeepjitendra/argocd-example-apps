@@ -3,7 +3,6 @@ kind: Deployment
 metadata:
   name: guestbook-ui
 spec:
-  exclusiveBroker: true
   replicas: 2
   revisionHistoryLimit: 3
   selector:
